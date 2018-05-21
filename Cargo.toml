@@ -28,9 +28,9 @@ members = [
 bytes = "0.4.7"
 futures = "0.1"
 http = "0.1"
-h2 = "0.1"
+h2 = { git = "https://github.com/johnklai1/h2" }
 log = "0.4"
-tower-h2 = { git = "https://github.com/tower-rs/tower-h2" }
+tower-h2 = { git = "https://github.com/rbtying/tower-h2" }
 tower-service = { git = "https://github.com/tower-rs/tower" }
 
 # For protobuf
